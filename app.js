@@ -7,7 +7,7 @@ const results = document.getElementById("results");
 //set the API key and URL
 
 const API_BASE_URL = "https://www.omdbapi.com";
-const API_KEY = "99bcb000";
+const API_KEY = "YOUR_API_KEY";
 
 //function to create and display movie information
 
