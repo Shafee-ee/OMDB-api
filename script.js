@@ -7,7 +7,7 @@ const results = document.getElementById("results");
 
 // Base URL for the OMDB API
 const API_BASE_URL = "https://www.omdbapi.com/";
-const API_KEY = "99bcb000"; // Replace with your actual API key
+const API_KEY = "YOUR_API_KEY"; // Replace with your actual API key
 
 // Function to create and display movie information
 function displayMovie(movie) {
