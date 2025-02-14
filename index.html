@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OMDB API Search</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1>OMDB API Search</h1>
+
+        <!-- Search by Title -->
+        <h2>Search by Title</h2>
+        <input type="text" id="titleInput" placeholder="Enter movie title...">
+        <button id="titleSearchButton">Search by Title</button>
+
+        <!-- Search by IMDb ID -->
+        <h2>Search by IMDb ID</h2>
+        <input type="text" id="imdbIdInput" placeholder="Enter IMDb ID (e.g., tt0111161)...">
+        <button id="imdbSearchButton">Search by IMDb ID</button>
+
+        <!-- Results Section -->
+        <div id="results" class="results"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
