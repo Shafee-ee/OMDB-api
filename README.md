@@ -13,6 +13,6 @@ A movie search application that interacts with the OMDB API to fetch and display
 - OMDB API
 
 ## How to Use
-1. Clone this repository: `git clone https://github.com/matterchief/OMDB-api.git`
+1. Clone this repository: `git clone https://github.com/shafee-ee/OMDB-api.git`
 2. Open `index.html` in your browser.
 
